@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jadwal Operasional</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f5f7fb;
+}
+
+.header{
+    background:#0d47a1;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.header h1{
+    margin:0;
+}
+
+.container{
+    max-width:700px;
+    margin:20px auto;
+    padding:15px;
+}
+
+.card{
+    background:white;
+    border-radius:10px;
+    padding:15px;
+    margin-bottom:15px;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+}
+
+.card h2{
+    margin-top:0;
+    color:#0d47a1;
+}
+
+label{
+    display:block;
+    margin-top:10px;
+    font-weight:bold;
+}
+
+input,select{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    box-sizing:border-box;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    background:#0d47a1;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    margin-top:20px;
+}
+
+button:hover{
+    background:#1565c0;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+<h1>JADWAL OPERASIONAL</h1>
+<p>Grand Avenue Garden Bengkong</p>
+</div>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Tanggal</h2>
+
+<label>Tanggal</label>
+<input type="date">
+
+</div>
+
+<div class="card">
+
+<h2>SHIFT 1</h2>
+
+<label>Pintu Keluar 1</label>
+<select>
+<option>Yohana Bura Goran</option>
+<option>Siska H. Telaumbanua</option>
+<option>Alexander Harrisno Sangi</option>
+<option>Lukman Luli</option>
+<option>Verinus Zendrato</option>
+</select>
+
+<label>Pintu Keluar 2</label>
+<select>
+<option>Yohana Bura Goran</option>
+<option>Siska H. Telaumbanua</option>
+<option>Alexander Harrisno Sangi</option>
+<option>Lukman Luli</option>
+<option>Verinus Zendrato</option>
+</select>
+
+<button>Generate Jadwal</button>
+
+</div>
+
+</div>
+
+</body>
+</html>
